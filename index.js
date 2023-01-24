@@ -53,7 +53,7 @@ const posts = [
         location: "Vitebsk, Byelorussia",
         avatar: "images/chagall-avatar.jpg",
         post: "images/chagall.jpg",
-        comment: "don't worry, be happy",
+        comment: "i'm in romantic mood today...",
         likes: 233
     }
     
