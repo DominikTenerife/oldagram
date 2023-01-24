@@ -1,0 +1,122 @@
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 700;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #C6C6C6;
+    padding:16px;
+
+}
+
+.logo{
+    width: 127px;
+}
+
+
+
+
+#selfie {
+    height: 375px;
+    background-image: url("images/post-vangogh.jpg");
+    background-size: cover;
+}
+
+#selfie:hover,
+#selfie:focus {
+    
+    opacity: 0.8;
+}
+
+.icon-container {
+    display: flex;
+    margin:0;
+    padding: 0;
+    
+}
+.icon{
+    width: 22px;
+    padding: 20px 0px 13px 10px;
+}
+
+.icon:hover,
+.icon:focus {
+    
+    opacity: 0.5; 
+    
+}
+
+#user-avatar{
+    background-image: url("images/user-avatar.jpg");
+}
+
+#artist-avatar {
+    background-image: url("images/avatar-vangogh.jpg");
+    margin: 0 7px 0 10px;
+}
+
+.round-img {
+    
+    width: 50px;
+    height: 50px;
+    
+    
+    background-size: cover;
+    border-radius: 300px;
+
+}
+
+.top {
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.artist {
+    margin:0;
+    padding: 0;
+}
+
+#artist-birthplace {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+#like {
+    padding: 0 0 0 10px;
+    margin:0;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.comment {
+    padding: 0 0 16px 10px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+#user-id {
+    font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+}
+
+.footer {
+    
+    padding: 0;
+    margin:0;
+}
