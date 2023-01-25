@@ -77,7 +77,7 @@ let post = 0
 
 
     
-    selfie.addEventListener("dblclick", function()
+    selfie.addEventListener("click", function()
     {
     changePage()
     
